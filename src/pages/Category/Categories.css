@@ -1,0 +1,56 @@
+.categories {
+    margin: 10px 35px;
+}
+
+.addnewcategory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addnewcategory>input {
+    width: 85%;
+    margin-right: 15px;
+    padding: 15px;
+    border: none;
+    background-color: #ececec;
+    font-size: 15px;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+}
+
+.addnewcategory>button {
+    width: 15%;
+    background-color: #e78900;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categorylist {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top:35px;
+}
+.singlecategorylist{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:20px 15px;
+    border-radius: 5px;
+}
+.singlecategorylist>ion-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.singlecategorylist>ion-icon:hover{
+    color:#e78900;
+}

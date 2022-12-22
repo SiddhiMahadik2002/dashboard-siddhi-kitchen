@@ -1,0 +1,28 @@
+.allrecipes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin:35px;
+}
+.singlerecipebox{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:15px;
+}
+.singlerecipeboxbtn{
+    margin-top: 10px;
+}
+.singlerecipeboxbtn>button{
+    padding:5px 10px;
+    cursor: pointer;
+}
+.singlerecipeboxbtn>button:first-child{
+    margin-right: 10px;
+    border:none;
+}
+.singlerecipeboxbtn>button:last-child{
+    background-color:#e78900;
+    border:none;
+    color:white;
+}

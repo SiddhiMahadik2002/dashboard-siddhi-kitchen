@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left{
+    color:#e78900;
+    display: flex;
+   justify-content:center;
+   
+   margin: 40px;
+   font-weight:700;
+    }
+#right{
+    display:flex;
+    justify-content:center;
+    
+    margin:40px;
+    font-weight:500;
+    }
+a{
+    padding: 10px;
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+    

@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+  }
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.heroarea{
+  display: flex;
+  justify-content: space-between;
+  height:60vh;
+  }
+
+.rightheroarea{
+  background-image: url("../../images/hero\ image.png");
+  background-size: contain;
+  background-position: center;
+  width: 50%;
+  background-repeat: no-repeat;
+  
+}
+.leftheroarea{
+  margin-left:35px;
+}
+.leftheroarea>h2{
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  
+}
